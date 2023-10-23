@@ -1,0 +1,154 @@
+
+style left
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+
+}
+.container .left_Side
+{
+    position: relative;
+    background-color: #003147;
+    padding: 40px;
+    
+}
+.Profiletext
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.Profiletext .imgBx
+{
+    position: relative;
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.Profiletext .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.Profiletext h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+
+}.Profiletext h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.PersonalInfo
+{
+    padding-top: 40px;
+
+}
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.PersonalInfo ul
+{
+    position: relative;
+}
+.PersonalInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.PersonalInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: blue;
+}
+.PersonalInfo ul li .span
+{
+    color: gold;
+    font-weight: 300;
+}
+.PersonalInfo.Edu li
+{
+    margin: 15px;
+}
+.PersonalInfo.Edu h5
+{
+    color: gold;
+    font-weight: 500;
+}
+.PersonalInfo.Edu h4
+{
+    color: red;
+    font-weight: 500;
+}
+.container .right_Side
+{
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+    
+}
+.about
+{
+    margin-bottom: 50px;
+}
+.about.last-name
+{
+    margin-bottom: 0;
+
+}
+.title2
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p
+{
+    color: #333;
+}
